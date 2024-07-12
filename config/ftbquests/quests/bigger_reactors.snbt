@@ -1,0 +1,1065 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bigger_reactors"
+	group: "2B51AC12041E3F89"
+	icon: "biggerreactors:reactor_power_tap"
+	id: "3C78926E5D301BA0"
+	images: [
+		{
+			click: "https://biggerseries.net/biggerreactors"
+			height: 3.0d
+			hover: ["點擊此處以開啟英文版 Wiki！"]
+			image: "atm:textures/questpics/biggerreactors/biggerreactorslogo.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			click: "https://docs.google.com/spreadsheets/d/1YWCHyuxL5xDahNuypdZbmiOtrUX0_BOaH4W4N1u8T-Y"
+			dependency: "4415C9F8DA2D7E68"
+			height: 0.25d
+			hover: ["渦輪機各線圈和它們的特性的完整列表"]
+			image: "biggerreactors:textures/block/turbine/fluid_port/inlet.png"
+			rotation: 45.0d
+			width: 0.25d
+			x: -2.75d
+			y: 10.6d
+		}
+		{
+			click: "https://docs.google.com/spreadsheets/d/1Tacr84CFuMoPylTc5C3kYt3MPPoH3ydgqHl7e7aH0g8"
+			dependency: "4AD8363D7359A072"
+			height: 0.25d
+			hover: ["反應爐各減速劑和它們的特性的完整列表"]
+			image: "allthemodium:textures/block/unobtainium_block.png"
+			rotation: 45.0d
+			width: 0.25d
+			x: 2.0d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"該模組為基於原本的&e大型反應爐（Big Reactors）&r的官方高版本移植，旨在透過搭建可自定義的多方塊反應爐來提供有趣且具有吸引力的的電力系統。"
+				""
+				"該模組的主要元素為：鈾錠（可以透過篩深板岩獲得）。你會需要很多的鈾再加上一大堆的煤炭和鐵錠來開始搭建你的反應爐。"
+			]
+			id: "7C4E4793DA887DE4"
+			rewards: [
+				{
+					count: 2
+					id: "5BFA258EB1204AC8"
+					item: "alltheores:raw_uranium"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5D196EE2BB1E921E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7ECE44526077F3C9"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			title: "歡迎來到&9更大的反應爐&r！"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C4E4793DA887DE4"]
+			description: [
+				"在我們開始搭建反應爐之前，我們要先熔煉一些煤炭（或木炭）來製造出&9石墨錠&r。"
+				""
+				"石墨錠，再加上鐵錠，就是我們搭建反應爐所需的主要材料。"
+			]
+			hide: true
+			id: "4FA6BEA4E646B742"
+			rewards: [
+				{
+					id: "07500C1CA8341D60"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E406BC76180F481"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "硬化碳"
+			tasks: [{
+				count: 16L
+				id: "4B83A0D1C2C3C226"
+				item: "biggerreactors:graphite_ingot"
+				type: "item"
+			}]
+			title: "燒些石墨來做外殼"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75AD0CEBC1335915"]
+			description: [
+				"我們將會搭建最小型的被動型反應爐（3x3x3）。任務目標的需求量就是你要將它搭建出來所需的準確數量。"
+				""
+				"要搭建反應爐，你需要先用外殼搭建出一個3x3x3的框架。底部的中間可以使用外殼或玻璃。你需要在每面牆上放置功能各異的&9反應爐元件&r，像是反應爐能量埠或是反應爐存取埠"
+				""
+				"你搭建的每個反應爐都必須且只能放置「一個」&6反應爐終端&r，我們通常會將它放在正面的中間。接下來，我們會需要在反應爐的頂部放置一個&a反應爐控制棒&r，並在它的下方（也就是反應爐的正中心），放置一個&e反應爐燃料棒&r。"
+				""
+				"你會需要一個通道來輸入燃料和輸出廢料，這些動作都能透過&9反應爐存取埠&r來完成。在我們的搭建中，最好在左邊和右邊各放一個。"
+				""
+				"因為我們要輸出電力，我們會在後面放置一個&c反應爐能量埠&r。當你放下它後，反應爐應該就搭建成功了！"
+				""
+				"{image:atm:textures/questpics/biggerreactors/3x3_reactor.png width:150 height:150 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "atm:textures/questpics/biggerreactors/3x3completed.png"
+				}
+			}
+			id: "4AD8363D7359A072"
+			min_width: 500
+			rewards: [
+				{
+					count: 4
+					id: "20C12910482B20D7"
+					item: "biggerreactors:reactor_casing"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6236B1E5DF191785"
+					item: "alltheores:uranium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3FEA5D1C2E8907D8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C32A80527EB8A8F"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "學習基本知識"
+			tasks: [
+				{
+					count: 21L
+					id: "70D705C81989D87C"
+					item: "biggerreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "1D03F9FD56B01515"
+					item: "biggerreactors:reactor_terminal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2ADB404DAFBD7AC5"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+				{
+					id: "6E7930A4B00563C9"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+				{
+					id: "1C89B070388F3ADF"
+					item: "biggerreactors:reactor_control_rod"
+					type: "item"
+				}
+				{
+					id: "368FDD7ECB8C06CD"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+			]
+			title: "&d搭建第一個被動型反應爐"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FA6BEA4E646B742"]
+			description: [
+				"你會需要製作一些&6反應爐外殼&r來搭建反應爐。"
+				""
+				"它們能夠作為反應爐的外框和外牆來使用，但如果你想要看到反應爐的內部的話，你也可以將外牆替換成&9反應爐玻璃&r。"
+			]
+			id: "4B9E9497E44D0096"
+			rewards: [
+				{
+					id: "0303247B6A6C3F08"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "19C423870DAAA0DB"
+					item: "biggerreactors:reactor_casing"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "76E0779D896F146B"
+					item: "biggerreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "4EA3FF4654F9D9FF"
+					item: "biggerreactors:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "反應爐搭建元件"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B9E9497E44D0096"]
+			description: [
+				"你&c必須&r要使用這些元件才能對你的反應爐輸入燃料，或是輸出廢料和電力。"
+				""
+				"&c反應爐能量埠&r讓你能夠從你的&9被動型&r反應爐輸出電力。你可以對它連接管道或線纜來進行能量輸出。"
+				""
+				"&a反應爐存取埠&r是所有反應爐的必要元件，它讓你能夠對反應爐輸入燃料（鈾錠）或輸出廢料（藍晶錠）。就算只需要一個存取埠就能搭建出反應爐，最好還是讓每個反應爐都擁有兩個存取埠。不然如果你將藍晶錠輸出到同時具有輸入&l和&r輸出功能的儲物空間（像是漏斗）的話，藍晶錠會進到反應爐的燃料輸入槽中。"
+			]
+			id: "2A20000FAEC2E16A"
+			rewards: [
+				{
+					count: 2
+					id: "772EB41C198591C5"
+					item: "biggerreactors:reactor_casing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1FA7A1D6E690613A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "565CF24C6904CC2A"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+				{
+					id: "0649EBB6E6516B4C"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+			]
+			title: "與反應爐進行互動"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B9E9497E44D0096"]
+			description: [
+				"&d反應爐終端&r是反應爐的核心部位。當反應爐成形後，你可以右鍵點擊終端來開啟反應爐的介面。"
+				""
+				"介面會根據你的反應爐是&9被動型&r還是&e主動型&r的反應爐發生變化。被動型反應爐能夠直接透過消耗燃料來進行發電。而主動型反應爐則是透過消耗燃料來產生熱量，以使渦輪機能夠進行發電。"
+				""
+				"你能夠在被動型反應爐的介面中開關反應爐或廢料輸出。你也能看到一些資訊，像是：反應爐正產出的 RF/t 或是反應爐每 tick 會消耗多少的燃料。"
+				""
+				"{image:atm:textures/questpics/biggerreactors/reactor_passive.png width:200 height:175 align:1}"
+			]
+			id: "75AD0CEBC1335915"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "2975B436F7D91A8A"
+					item: "biggerreactors:reactor_casing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "38C141F047926833"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5508199460B01082"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "反應爐的核心"
+			tasks: [{
+				id: "62A0FE4CFAB9621B"
+				item: "biggerreactors:reactor_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B9E9497E44D0096"]
+			description: [
+				"所有的反應爐都需要&9反應爐控制棒&r和&9反應爐燃料棒&r來運行。你能夠用它們來控制你要插多少燃料進反應爐。"
+				""
+				"反應爐控制棒被放置於反應爐的頂部。你的反應爐可以放置多個控制棒，但一定至少要有一個。通常情況下：你放置的越多，你的反應爐就能同時燃燒更多的燃料。這代表你可以以更快的速率來產生電力，但代價就是你會更快的消耗燃料。"
+				""
+				"對於每個控制棒來說，你會需要從反應爐的底部一路放置燃料棒，直到燃料棒接觸到它們。舉例來說：如果你有一個 5 格方塊高的反應爐，你每放置一個控制棒就需要在它的下方放置 3 個燃料棒。"
+				""
+				"如果你右鍵點擊你的控制棒的話，你能夠透過插入或抽出燃料棒來控制反應爐的燃燒速率。你插入的越深，反應爐的燃燒速率就越慢。"
+			]
+			id: "7B4AAC741F0A6073"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "3165C37A9C6F4AA4"
+					item: "biggerreactors:reactor_casing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "332E2A363D91F6E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56A9536AEFBA6C7E"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1FC2120A22A7BAEC"
+					item: "biggerreactors:reactor_control_rod"
+					type: "item"
+				}
+				{
+					id: "14C67262D9F8A9A8"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+			]
+			title: "反應爐控制棒"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B9E9497E44D0096"]
+			description: [
+				"有一些可選的方塊能夠幫助你更好的控制你的反應爐。"
+				""
+				"&c反應爐紅石埠&r可以讓你能夠透過控制桿、按鈕……等紅石元件來控制你的反應爐。"
+				""
+				"&9反應爐電腦埠&r可以讓你能夠透過一些使用「Lua 程式語言」的模組（像是&e電腦：重製版（CC: Tweaked）&r）來控制你的反應爐。"
+			]
+			id: "0EF58EA4D6568E0C"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2524F312CA03DA54"
+					item: "biggerreactors:reactor_casing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "24275D5434CE1CFF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "079E5060492EC3F3"
+					item: "biggerreactors:reactor_computer_port"
+					type: "item"
+				}
+				{
+					id: "60970B9478031D80"
+					item: "biggerreactors:reactor_redstone_port"
+					type: "item"
+				}
+			]
+			title: "反應爐控制元件"
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"你需要選擇其中一個&9反應爐存取埠&r來將它作為燃料的輸入口，以將&e鈾錠&r輸入進反應爐。"
+				""
+				"最簡單的方法就是將&a儲存抽屜&r或&a儲物箱&r的頂部連接上&9物品管道&r，就像下圖中的那樣。"
+				""
+				"{image:atm:textures/questpics/biggerreactors/storage_example.png width:150 height:150 align:1}"
+			]
+			id: "14E5349DD740D026"
+			min_width: 300
+			rewards: [
+				{
+					id: "55FBD6A7422569AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29C27647CB5FC0F6"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "159251A23C881D83"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			title: "為被動型反應爐添加燃料"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"就像你會需要輸入燃料那樣，反應爐會產生一個副產物：「&9藍晶錠&r」來作為它的廢料產出。"
+				""
+				"註：你能夠合成出&e藍晶粉&r。"
+			]
+			hide: true
+			id: "4745152F6FF242B3"
+			rewards: [
+				{
+					count: 4
+					id: "7EC7EDABB4555220"
+					item: "biggerreactors:reactor_casing"
+					random_bonus: 12
+					type: "item"
+				}
+				{
+					id: "3C59017024A58441"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "不浪費、不想要什麼之類的…"
+			tasks: [{
+				count: 4L
+				id: "77F79D09A76CFF15"
+				item: "biggerreactors:cyanite_ingot"
+				type: "item"
+			}]
+			title: "廢料處理"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4745152F6FF242B3"]
+			description: [
+				"這些廢料其實很有用！製作一個&9藍晶再處理器&r來將 &e2 個藍晶錠&r轉化為 &d1 個藍鈽錠&r。藍晶再處理器也會需要注水來正常運作。"
+				""
+				"藍鈽錠能夠用來合成一些物品，但也能像鈾錠一樣放在反應爐之中當作燃料。"
+			]
+			hide: true
+			id: "354086C858E10154"
+			rewards: [
+				{
+					id: "601D8AF8D45F9818"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080EADDE6EB76EAC"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7E5DFBEB851FECA2"
+					item: "biggerreactors:cyanite_reprocessor"
+					type: "item"
+				}
+				{
+					id: "2305160826F7CAD8"
+					item: "biggerreactors:blutonium_ingot"
+					type: "item"
+				}
+			]
+			title: "廢料再處理"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["354086C858E10154"]
+			description: [
+				"我們現在能夠製作出&5鏀方塊&r了。"
+				""
+				"雖然它的造價非常的昂貴，但它能夠當作一個很好的反應爐&9減速劑&r，也能夠被分解成金屬錠以合成出&c熱交換器&r的相關元件。"
+			]
+			id: "2DF6657DB4950B79"
+			rewards: [
+				{
+					count: 2
+					id: "488B1473A4A73EBC"
+					item: "biggerreactors:blutonium_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C0EE9B972E1C3E0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23C4AEE096F33CB3"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			subtitle: "「不要亂改我的名字。」"
+			tasks: [{
+				id: "6BFA36E89207A86C"
+				item: "biggerreactors:ludicrite_block"
+				type: "item"
+			}]
+			title: "鏀迅先生曾經說過："
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["354086C858E10154"]
+			description: [
+				"當我們擁有了藍鈽錠之後，我們就可以開始製作渦輪機的核心元件：「&9渦輪機終端&r」了。"
+				""
+				"渦輪機和反應爐一樣都是多方塊結構！它能夠通入一些像是&d主動型&r反應爐產出的「&7蒸氣&r」之類的加熱流體來產出 大 量 的 電力！我們會需要更多的組件來幫助我們搭建出我們的第一個渦輪機。"
+			]
+			id: "4415C9F8DA2D7E68"
+			rewards: [
+				{
+					count: 2
+					id: "6EE855A0C663EDDF"
+					item: "biggerreactors:turbine_casing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5C20A5831F6F1EE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01FB731CE2FD9481"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "3FD4E648D3560D1B"
+					item: "biggerreactors:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "738B3094737D9A6A"
+					item: "biggerreactors:turbine_terminal"
+					type: "item"
+				}
+			]
+			title: "製造渦輪"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"反應爐&9減速劑&r是一些擁有不同的特性，且能夠被放置在反應爐內部以改變運作效率的材料。需要在搭建反應爐時，將它們放在反應爐的&l內部&r。"
+				""
+				"減速劑有 4 種不同的特性："
+				""
+				"- 吸收率：能夠將吸收到的輻射轉化為多少外殼熱的比例。"
+				"- 熱效率：能夠將吸收到的輻射轉化為多少熱量的比例。"
+				"- 減速率：將輻射速率減慢多少的比例。"
+				"- 導熱率：能夠讓多少熱量從燃料棒轉移到外殼上的比例。"
+				""
+				"一般情況下，材料的稀有度越高，它作為減速劑所帶來的效果就越好。在 ATM 系列之中，&d難得素方塊&r通常都被認為是最好的慢速劑。"
+				""
+				"將它們加入到你的反應爐之中可以提升你的反應爐的整體表現和能量輸出。在前期請試著使用鑽石塊來當作減速劑！"
+			]
+			id: "73362EDC984B8A0F"
+			min_width: 300
+			rewards: [
+				{
+					id: "56D7ED254FC3A540"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6150F69F6D20EBFB"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			subtitle: "它們是減速劑，不是冷卻劑。"
+			tasks: [{
+				count: 3L
+				id: "3B3C22507E3FBACC"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "反應爐減速劑"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"被動型反應爐會消耗燃料並直接產出電力。但當我們將它的&c反應爐能量埠&r換成了&d反應爐冷卻埠&r之後，它就會轉變為能夠產出加熱流體（像是將水加熱成&9蒸氣&r）的主動型反應爐。同一個反應爐上不能同時加裝能量埠和冷卻埠。"
+				""
+				"當它轉變為主動型反應爐後，反應爐的介面會發生改變，並能夠查看更多反應爐的相關資訊。你現在可以看到冷卻液槽、廢氣槽和&9廢氣產率&r。舉例來說：如果你輸入的是水，那這一項就會是蒸氣的產率。"
+			]
+			id: "476755275B948A5F"
+			min_width: 300
+			rewards: [
+				{
+					id: "450F59D9CB0FEF7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44BF0BA518FE9E1D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "來製造蒸氣！！"
+			tasks: [{
+				count: 2L
+				id: "3A1B16362F885F1F"
+				item: "biggerreactors:reactor_coolant_port"
+				type: "item"
+			}]
+			title: "為「被動型」反應爐做轉換"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4AD8363D7359A072"]
+			description: [
+				"反應爐是一種多方塊結構，這代表你可以創造你自己想要的尺寸！"
+				""
+				"反應爐的&l最大&r尺寸為128x128x192。有很多的變數會影響到反應爐的最終產出，所以你需要慢慢測試！"
+				""
+				"大致上來說："
+				""
+				"當反應爐「越高」，就代表有越多的燃料棒；它就能一次容納以及燃燒更多的燃料，並產出更多的電力。換句話說就是：更高的&9燃燒速率&r。"
+				""
+				"在你不添加更多的燃料棒的情況下，當反應爐「越寬」，它的效率就越高。換句話說就是：更低的燃料消耗率。"
+			]
+			id: "3F9D553C9FA64F2A"
+			min_width: 300
+			rewards: [
+				{
+					id: "2D71A6EF1CA59FA7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52181A03434A605B"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "52294DB4AE793F9C"
+				item: "biggerreactors:reactor_casing"
+				type: "item"
+			}]
+			title: "Expanding Our Reactors"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"我們會需要透過不同的&6埠&r來對渦輪機進行各種特定操作。"
+				""
+				"使用&9渦輪機流體埠&r能夠輸入像是蒸氣之類的加熱流體，也能夠用來輸出像是水之類的廢料。蒸氣會在渦輪機運轉的過程中凝結成水，所以最好在你的渦輪機上裝設兩個流體埠：一個用來輸入蒸氣，另一個則用來將水輸出回反應爐。"
+				""
+				"&c渦輪機能量埠&r能夠輸出電力，我們必須要透過它才能得到渦輪機的電力。"
+				""
+				"你也可以製作一個&e渦輪機電腦埠&r，但這取決於你自己。它能夠讓你使用電腦（CC: Tweaked）模組運行一些腳本來自動控制你的渦輪機。"
+			]
+			id: "186731580B14F9D2"
+			rewards: [
+				{
+					count: 4
+					id: "6F76A59F202AD944"
+					item: "biggerreactors:turbine_casing"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7BC028EFCCFAF39A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5E9CEEEE330B1DE0"
+					item: "biggerreactors:turbine_fluid_port"
+					type: "item"
+				}
+				{
+					id: "18EB6570007F534A"
+					item: "biggerreactors:turbine_power_tap"
+					type: "item"
+				}
+			]
+			title: "Turbine Ports"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"要讓渦輪開始旋轉，我們會需要下列&c重要&r元件："
+				""
+				"- &9渦輪機轉子軸承s&r是放置在渦輪兩端的一個裝置。雖然渦輪機轉子不一定要放置在渦輪的正中心，但通常這會是效率最高的位置。每個渦輪機會需要2個渦輪機轉子軸承，一個放在頂端，另一個放在底部。"
+				""
+				"- &e渦輪機轉子&r需要從其中一個渦輪機轉子軸承一路延伸到另一個渦輪機轉子軸承，它們會形成整個渦輪機的主軸。主軸可以是垂直的也可以是水平的。"
+				""
+				"- &9渦輪機扇葉&r會使渦輪機轉子轉動。它們可以被放置在渦輪機轉子上並能夠向外延伸多格方塊。"
+				""
+				"下圖是一種水平主軸的設置範例，右邊為黃金方塊所形成的渦輪線圈。"
+				""
+				"{image:atm:textures/questpics/biggerreactors/turbine_horizontal_shaft.png width:200 height:125 align:1}"
+			]
+			id: "67AFCBCE7AAC3089"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "75FCB874DBC8BC86"
+					item: "biggerreactors:turbine_rotor_blade"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A0A9AAD57654338"
+					item: "biggerreactors:turbine_glass"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "433D5587FE499E95"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "69497C419271A8F2"
+					item: "biggerreactors:turbine_rotor_bearing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "05559BFC34BEBF4A"
+					item: "biggerreactors:turbine_rotor_shaft"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "42F16075D25E4A94"
+					item: "biggerreactors:turbine_rotor_blade"
+					type: "item"
+				}
+			]
+			title: "Creating The Turbine Shaft"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"&d渦輪機線圈&r是一種需要在渦輪機的轉子的其中一端放置一整圈的方塊。必須要有線圈，渦輪機才會開始發電。"
+				""
+				"你會需要獲得至少一種能夠用來當作線圈的方塊來完成此任務。"
+				""
+				"{image:atm:textures/questpics/biggerreactors/turbine_coil.png width:150 height:100 align:1}"
+			]
+			id: "3FC7FDAF84871963"
+			rewards: [
+				{
+					id: "54346236C9443772"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2719368F51041BAD"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "188BA58BAB4292B0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:iron_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:copper_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gold_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:osmium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:platinum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:silver_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:invar_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:electrum_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:enderium_block"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_block"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_block"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:unobtainium_block"
+							}
+							{
+								Count: 1b
+								id: "alltheores:steel_block"
+							}
+							{
+								Count: 1b
+								id: "biggerreactors:ludicrite_block"
+							}
+						]
+					}
+				}
+				title: "渦輪機線圈"
+				type: "item"
+			}]
+			title: "渦輪機線圈"
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"3FC7FDAF84871963"
+				"67AFCBCE7AAC3089"
+				"186731580B14F9D2"
+				"775D176081DD75F5"
+			]
+			description: [
+				"比起建造一個最小尺寸的渦輪機，你現在最好根據你的&9主動型反應爐&r的產率來搭建一個適配的渦輪機。"
+				""
+				"首先，你會需要搭建一個足以承受住你的反應爐的&9廢氣產率&r的渦輪機。要獲得最高的發電量，你需要讓它維持在 1800 RPM。這代表你會需要花很多時間來慢慢測試不同的線圈、不同的扇葉數量以及不同尺寸的渦輪機！"
+				""
+				"註：你會需要製造一個任意尺寸的&d任務目標螢幕&r來完成這個任務。當你放下它並對他點擊右鍵後，你就可以將任務目標設為此任務，然後你就可以對它輸入電力來完成此任務了。"
+				""
+				"{image:atm:textures/questpics/biggerreactors/reactor_turbine_example.png width:300 height:150 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "atm:textures/questpics/biggerreactors/side_turbine_5x4x5.png"
+				}
+			}
+			id: "4ED36AA3766E842B"
+			min_width: 300
+			rewards: [
+				{
+					id: "5AE542B84586D0BA"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6612F39435CC428F"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4A94CC9DA47A370C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ftbquests:screen_1"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_3"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_5"
+								}
+								{
+									Count: 1b
+									id: "ftbquests:screen_7"
+								}
+							]
+						}
+					}
+					title: "任務目標螢幕"
+					type: "item"
+				}
+				{
+					id: "24146672439051F5"
+					max_input: 100000L
+					type: "forge_energy"
+					value: 10000000L
+				}
+			]
+			title: "&d第一台渦輪機"
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"&9渦輪機&r的最小尺寸為5x4x5，但最大可以搭建到32x192x32。"
+				""
+				"就像反應爐一樣，它的外框必須由&d渦輪機外殼&r來搭建，它的外牆同樣也可以用&9渦輪機玻璃&r來代替。"
+			]
+			id: "2D592669F4D41793"
+			rewards: [
+				{
+					count: 2
+					id: "01C09E75947CCBF5"
+					item: "biggerreactors:turbine_glass"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "46A906727C46868C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "2FC2A5929C2E0EA9"
+				item: "biggerreactors:turbine_glass"
+				type: "item"
+			}]
+			title: "搭建渦輪機"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4415C9F8DA2D7E68"]
+			description: [
+				"當你搭建完你的渦輪機之後，右鍵點擊你的渦輪機終端就可以打開渦輪機的介面。"
+				""
+				"你可以在這裡看到渦輪機你可以在這裡看到渦輪機的各項數據。將游標滑到它們之上會告訴你更加詳細的資訊。"
+				""
+				"你在右邊可以看到兩個箭頭，它們是用來調整&9通入流量&r的。通入流量是指在同一時間內能夠讓多少的加熱流體進到渦輪機內。如果要知道你該將此項設定調整為多少的話，可以參考你的反應爐的&d廢氣產率&r。"
+				""
+				"{image:atm:textures/questpics/biggerreactors/turbine_ui.png width:150 height:140 align:1}"
+			]
+			id: "775D176081DD75F5"
+			min_width: 300
+			rewards: [{
+				id: "7CD6A1F962D2C310"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2905C4386A407A1E"
+				title: "渦輪機的介面"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+	]
+	title: "{atm9.chapters.17.title}"
+}
