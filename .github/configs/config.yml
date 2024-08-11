@@ -1,19 +1,21 @@
 # 模組包名稱
-modpack-name: Modpack-Template
+modpack-name: ATM9-TTS
 
 # 模組包專案設定（自動更新通知）
 # 如果 Project ID 為空將會停止檢查
-modpack-project-id:
-modpack-file-id: 
+modpack-project-id: 967745
+modpack-file-id: 5616698
 
 # 用戶端 - 複製陣列
 client-patch:
   - "config"
   - "kubejs"
+  - "packmenu"
   - "resourcepacks"
   - "LICENSE"
 
 # 伺服器 - 複製陣列（為空將會停止產生伺服器版）
 server-patch:
-  - "config"
+  - "config/ftbquests"
+  - "config/skyblockbuilder"
   - "LICENSE"
