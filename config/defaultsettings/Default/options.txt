@@ -84,10 +84,10 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_master:0.5
+soundCategory_music:0.2
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.3
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
