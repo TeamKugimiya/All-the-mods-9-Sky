@@ -74,7 +74,7 @@
   "kubejs.ponder.induction_mek.text_6": "輸導元件用於提高儲電量。",
   "kubejs.ponder.induction_mek.text_7": "輸導供應器用於提高能量傳輸速率。",
   "kubejs.ponder.induction_mek.text_8": "輸導矩陣結構需要有至少一個元件與供應器。",
-  "kubejs.ponder.sps.header": "通用機械：超臨界移向器（SPS）",
+  "kubejs.ponder.sps.header": "通用機械：超臨界移相器（SPS）",
   "kubejs.ponder.sps.text_1": "SPS 能透過消耗龐大能量，\n將釙（ㄆㄛˋ）轉換成氣態反物質。",
   "kubejs.ponder.sps.text_2": "端口能使用調整器切換模式。",
   "kubejs.ponder.sps.text_3": "SPS 每個面都使用這個樣式搭建而成。",
