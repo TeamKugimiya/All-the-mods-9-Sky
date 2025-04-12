@@ -1,0 +1,16 @@
+{
+    "jetpack.bronze.name": "青銅",
+    "jetpack.copper.name": "銅",
+    "jetpack.creative.name": "創造模式",
+    "jetpack.diamond.name": "鑽石",
+    "jetpack.electrum.name": "琥珀電金",
+    "jetpack.emerald.name": "綠寶石",
+    "jetpack.gold.name": "金",
+    "jetpack.invar.name": "不變鋼",
+    "jetpack.iron.name": "鐵",
+    "jetpack.platinum.name": "鉑",
+    "jetpack.silver.name": "銀",
+    "jetpack.steel.name": "鋼",
+    "jetpack.stone.name": "石製",
+    "jetpack.wood.name": "木製"
+}
