@@ -472,10 +472,9 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "minecraft:elder_guardian"
+				entity: "occultism:possessed_elder_guardian"
 				icon: "minecraft:elder_guardian_spawn_egg"
-				id: "2F28B803C75DA3B2"
-				title: "擊殺遠古深海守衛"
+				id: "227E1A77935AAE5A"
 				type: "kill"
 				value: 1L
 			}]
