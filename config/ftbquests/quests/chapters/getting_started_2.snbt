@@ -425,8 +425,8 @@
 						id: "minecraft:cake"
 						tag: {
 							display: {
-								Lore: ["\"I beat Minecraft, and all they gave me was this cake.\""]
-								Name: "\"Winner Cake\""
+								Lore: ["\"我通關了 Minecraft，結果他們只給了我這個蛋糕。\""]
+								Name: "\"通關者蛋糕\""
 							}
 						}
 					}

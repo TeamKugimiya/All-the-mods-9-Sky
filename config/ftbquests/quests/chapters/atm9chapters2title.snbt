@@ -300,7 +300,7 @@
 							lvl: 1s
 						}]
 						display: {
-							Name: "{\"text\":\"Why?\"}"
+							Name: "{\"text\":\"為什麼？\"}"
 						}
 					}
 				}
