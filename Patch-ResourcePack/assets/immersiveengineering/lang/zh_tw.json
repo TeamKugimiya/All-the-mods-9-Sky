@@ -21,6 +21,13 @@
 	"desc.immersiveengineering.info.shader.rarity.epic": "史詩",
 	"desc.immersiveengineering.info.shader.rarity.ie_masterwork": "傑作",
 
+	"entity.immersiveengineering.bulwark": "重裝兵",
+	"item.immersiveengineering.bulwark_spawn_egg": "重裝兵 生怪蛋",
+	"entity.immersiveengineering.commando": "突擊兵",
+	"item.immersiveengineering.commando_spawn_egg": "突擊兵 生怪蛋",
+	"entity.immersiveengineering.fusilier": "火槍手",
+	"item.immersiveengineering.fusilier_spawn_egg": "火槍手 生怪蛋",
+	
 	"block.immersiveengineering.raw_block_aluminum":"鋁原礦方塊",
 	"block.immersiveengineering.duroplast": "導電樹脂方塊",
 	"block.immersiveengineering.fiberboard": "纖維板材",
