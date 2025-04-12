@@ -439,7 +439,7 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "77D607A14CA56F5E"
-				title: "Kill the Ender Dragon!"
+				title: "殺死終界龍！"
 				type: "kill"
 				value: 1L
 			}]
@@ -481,7 +481,7 @@
 			subtitle: "{atm9.quest.start2.subt.end}"
 			tasks: [{
 				id: "2675B5F872C3F81C"
-				title: "To the REAL End"
+				title: "前往真正的終界"
 				type: "checkmark"
 			}]
 			title: "{atm9.quest.start2.end}"
