@@ -1,0 +1,15 @@
+{
+  "configurationtool.configmode.swapped": "Swapped mode to ",
+  "gui.functionalstorage.empty": "Empty",
+  "linkingtool.controller.configured": "Controller configured to the tool",
+  "linkingtool.drawer.clear": "Cleared drawer frequency",
+  "linkingtool.ender.changed": "Changed drawer frequency",
+  "linkingtool.ender.stored": "Stored frequency in the tool",
+  "linkingtool.ender.warning": "Cannot change frequency, there are items in the drawer. Sneak + Right Click again to ignore this safety",
+  "linkingtool.linkingaction.swapped": "Swapped action to %s",
+  "linkingtool.linkingmode.swapped": "Swapped mode to %s",
+  "linkingtool.multiple_drawer.linked": "Linked drawers to the controller",
+  "linkingtool.multiple_drawer.removed": "Removed drawers from the controller",
+  "linkingtool.single_drawer.linked": "Linked drawer to the controller",
+  "linkingtool.single_drawer.removed": "Removed drawer from the controller"
+}
