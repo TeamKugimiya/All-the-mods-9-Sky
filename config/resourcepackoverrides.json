@@ -1,16 +1,22 @@
 {
   "schema_version": "2",
+  "default_packs": [
+    "file/1.18 BloodMagic-zh_tw-v2.zip",
+    "file/ModsTranslationPack-1.20.x.zip",
+    "file/ParaTranslationPack-1.20.x.zip",
+    "file/ATM9-TTS-Patches.zip"
+  ],
   "pack_overrides": {
     "teamkugimiya": [
-        "file/1.18 BloodMagic-zh_tw-v2.zip",
-        "file/ModsTranslationPack-1.20.x.zip",
-        "file/ParaTranslationPack-1.20.x.zip",
-        "file/ATM9-TTS-Patches.zip"
+    "file/1.18 BloodMagic-zh_tw-v2.zip",
+    "file/ModsTranslationPack-1.20.x.zip",
+    "file/ParaTranslationPack-1.20.x.zip",
+    "file/ATM9-TTS-Patches.zip"
     ],
     "$$teamkugimiya": {
-        "default_position": "TOP",
-        "fixed_position": true,
-        "required": true
+      "default_position": "TOP",
+      "fixed_position": true,
+      "required": true
     },
     "builtin/add_xycraft_override_ae2": {
       "title": "\"XyCraft AE2 紋理覆寫\"",
