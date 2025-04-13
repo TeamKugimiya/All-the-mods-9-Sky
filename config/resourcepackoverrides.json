@@ -1,0 +1,70 @@
+{
+  "schema_version": "2",
+  "pack_overrides": {
+    "teamkugimiya": [
+        "file/1.18 BloodMagic-zh_tw-v2.zip",
+        "file/ModsTranslationPack-1.20.x.zip",
+        "file/ParaTranslationPack-1.20.x.zip",
+        "file/ATM9-TTS-Patches.zip"
+    ],
+    "$$teamkugimiya": {
+        "default_position": "TOP",
+        "fixed_position": true,
+        "required": true
+    },
+    "builtin/add_xycraft_override_ae2": {
+      "title": "\"XyCraft AE2 紋理覆寫\"",
+      "description": "\"AE2 替代紋理\n只是風格不同，沒有更好！\""
+    },
+    "builtin/add_xycraft_overrides_glass": {
+      "title": "\"XyCraft 玻璃紋理覆寫\"",
+      "description": "\"原版的替代紋理 (WIP)\n移動至最底部來停用。\""
+    },
+    "builtin/add_xycraft_overrides_metal": {
+      "title": "\"XyCraft 金屬紋理覆寫\"",
+      "description": "\"原版的替代紋理 (WIP)\n移動至最底部來停用。\""
+    },
+    "builtin/add_xycraft_overrides_optional_mc": {
+      "title": "\"XyCraft 模型覆寫\"",
+      "description": "\"原版的替代模型\""
+    },
+    "builtin/add_xycraft_overrides_stone": {
+      "title": "\"XyCraft 石材紋理覆寫\"",
+      "description": "\"原版的替代紋理 (WIP)\n移動至最底部來停用。\""
+    },
+    "file/ClassicMekTexutres.zip": {
+      "description": "\"舊版《通用機械》紋理\""
+    },
+    "file/ForceCraft_Retextured.zip": {
+      "description": "\"讓 ForceCraft 的物品設計\n更貼近 Minecraft 原版工具的風格\""
+    },
+    "file/SmoothFont_1.20.zip": {
+      "description": "\"Minecraft 平滑字體紋理包\""
+    },
+    "create:legacy_copper": {
+      "title": "\"Create 舊版銅紋理\"",
+      "description": "\"取代原版的銅紋理\""
+    },
+    "mod_resources": {
+      "title": "\"模組資源\""
+    },
+    "Moonlight Mods Dynamic Assets": {
+      "title": "\"Moonlight 模組動態資源\"",
+      "description": "\"3 款模組的動態資源\""
+    },
+    "supplementaries:darker_ropes": {
+      "title": "\"深色繩索\"",
+      "description": "\"深色繩索\""
+    },
+    "high_contrast": {
+      "description": "\"提高 Minecraft 介面的對比度\n\""
+    },
+    "programmer_art": {
+      "title": "\"工程師藝術\"",
+      "description": "\"Minecraft 早期的經典樣貌\""
+    },
+    "packmenu": {
+        "hidden": true
+      }
+}
+}
