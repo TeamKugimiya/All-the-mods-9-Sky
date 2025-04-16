@@ -37,6 +37,8 @@ jobs:
   Release-It:
     name: 發布階段
     needs: [ Resourcepack-Maker, Patch-Maker ]
+    permissions:
+      contents: write
     uses: TeamKugimiya/reusable-workflows/.github/workflows/Modpack-Release.yml@main
     with:
       modpack-version: ${{ github.event.inputs.tag }}
