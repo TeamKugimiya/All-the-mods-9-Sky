@@ -4,11 +4,11 @@
   "items": [
     {
       "item": "minecraft:wooden_sword",
-      "nbt": "{Damage:0,display:{Name:'{\"text\":\"奧利的天空之劍\"}'}}"
+      "nbt": "{Damage:0,display:{Name:'{\"translate\":\"item.atm9sky.olys_sword_of_the_skies\"}'}}"
     },
     {
       "item": "minecraft:wooden_axe",
-      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],display:{Name:'{\"text\":\"我的斧頭！\"}'}}"
+      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],display:{Name:'{\"translate\":\"item.atm9sky.and_my_axe\"}'}}"
     },
     {
       "item": "minecraft:torch",
@@ -24,7 +24,7 @@
     },
     {
       "item": "minecraft:wooden_hoe",
-      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:efficiency\",lvl:3s}],display:{Name:'{\"text\":\"比爾的鋤頭\"}'}}"
+      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:efficiency\",lvl:3s}],display:{Name:'{\"translate\":\"item.atm9sky.bills_hoe\"}'}}"
     }
   ],
   "curios_items": []
