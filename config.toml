@@ -27,6 +27,10 @@ include = [
 context_include = [
   "config/ftbquests/quests/chapters/**/*.snbt",
   "config/ftbquests/quests/reward_tables/**/*.snbt",
+  "kubejs/client_scripts/jei_info.js",
+  "kubejs/client_scripts/tooltips.js",
+  "kubejs/startup_scripts/AE2/Universal_Press.js",
+  "kubejs/startup_scripts/custom_additions.js",
 ]
 exclude = []
 manual_roots = ["source/overrides"]

@@ -609,6 +609,30 @@
       "sha256": "af29aae8049508153adf6d2e2c07f475c445786fe4f304a1ce44bd26a112bf40",
       "size": 611901,
       "source_archive_path": "overrides/kubejs/assets/kubejs/lang/en_us.json"
+    },
+    "kubejs/client_scripts/jei_info.js": {
+      "kind": "context",
+      "sha256": "dd5e7c4c67124106702828cc0a5b608cf8efa075dbea9ca7601463afab91dbdc",
+      "size": 1131,
+      "source_archive_path": "overrides/kubejs/client_scripts/jei_info.js"
+    },
+    "kubejs/client_scripts/tooltips.js": {
+      "kind": "context",
+      "sha256": "7a96df0bfd1121d795941e93cb538c73ba7d9dc0325c2b49ee8c01ccf194455a",
+      "size": 4275,
+      "source_archive_path": "overrides/kubejs/client_scripts/tooltips.js"
+    },
+    "kubejs/startup_scripts/AE2/Universal_Press.js": {
+      "kind": "context",
+      "sha256": "1b7bb6dd2df54330e7ce13c5e92ad74f9e328135e00e9ae9ffdb2f013f1d5014",
+      "size": 198,
+      "source_archive_path": "overrides/kubejs/startup_scripts/AE2/Universal_Press.js"
+    },
+    "kubejs/startup_scripts/custom_additions.js": {
+      "kind": "context",
+      "sha256": "8005ed81cfb8c61ffba87ee7d8495a5845652444e17201c6499e3cfbab5a3953",
+      "size": 4972,
+      "source_archive_path": "overrides/kubejs/startup_scripts/custom_additions.js"
     }
   }
 }
