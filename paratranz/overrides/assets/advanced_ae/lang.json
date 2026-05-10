@@ -1,0 +1,202 @@
+{
+  "gui.advanced_ae.PatternConfigKeepLabel": {
+    "original": "Keep:",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "保留數量"
+  },
+  "gui.advanced_ae.PatternConfigLimitLabel": {
+    "original": "Limit:",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "合成上限"
+  },
+  "gui.upgrade.advanced_ae.AttackSpeedUpgrade": {
+    "original": "Attack Speed",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "攻擊速度"
+  },
+  "gui.upgrade.advanced_ae.AutoFeedUpgrade": {
+    "original": "Auto Feed",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "自動餵食"
+  },
+  "gui.upgrade.advanced_ae.AutoStockUpgrade": {
+    "original": "Auto Stock",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "自動補貨"
+  },
+  "gui.upgrade.advanced_ae.EvasionUpgrade": {
+    "original": "Evasion",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "閃避"
+  },
+  "gui.upgrade.advanced_ae.FlightDriftUpgrade": {
+    "original": "No Flight Drift",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "消除飛行慣性"
+  },
+  "gui.upgrade.advanced_ae.FlightUpgrade": {
+    "original": "Flight",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "飛行"
+  },
+  "gui.upgrade.advanced_ae.HpBufferUpgrade": {
+    "original": "HP Buffer",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "生命增幅"
+  },
+  "gui.upgrade.advanced_ae.JumpHeightUpgrade": {
+    "original": "Jump Height",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "跳躍高度"
+  },
+  "gui.upgrade.advanced_ae.LavaImmunityUpgrade": {
+    "original": "Lava Immunity",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "免疫熔岩"
+  },
+  "gui.upgrade.advanced_ae.LuckUpgrade": {
+    "original": "Luck Boost",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "幸運"
+  },
+  "gui.upgrade.advanced_ae.MagnetUpgrade": {
+    "original": "Magnet",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "磁力"
+  },
+  "gui.upgrade.advanced_ae.NightVisionUpgrade": {
+    "original": "Night Vision",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "夜視"
+  },
+  "gui.upgrade.advanced_ae.PickCraftUpgrade": {
+    "original": "Pick-Craft",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "指向合成"
+  },
+  "gui.upgrade.advanced_ae.ReachUpgrade": {
+    "original": "Reach Boost",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "觸及距離"
+  },
+  "gui.upgrade.advanced_ae.RechargingUpgrade": {
+    "original": "ME Recharging",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "ME 無線充能"
+  },
+  "gui.upgrade.advanced_ae.RegenerationUpgrade": {
+    "original": "Regeneration",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "回復"
+  },
+  "gui.upgrade.advanced_ae.SprintSpeedUpgrade": {
+    "original": "Sprint Speed",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "跑步速度"
+  },
+  "gui.upgrade.advanced_ae.StepAssistUpgrade": {
+    "original": "Step Assist",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "登階輔助"
+  },
+  "gui.upgrade.advanced_ae.StrengthUpgrade": {
+    "original": "Strength",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "力量"
+  },
+  "gui.upgrade.advanced_ae.SwimSpeedUpgrade": {
+    "original": "Swim Speed",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "游泳速度"
+  },
+  "gui.upgrade.advanced_ae.WalkSpeedUpgrade": {
+    "original": "Walk Speed",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "行走速度"
+  },
+  "gui.upgrade.advanced_ae.WaterBreathingUpgrade": {
+    "original": "Water Breathing",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "水下呼吸"
+  },
+  "gui.upgrade.advanced_ae.WorkbenchUpgrade": {
+    "original": "Portable Workbench",
+    "context": "source/overrides/assets/advanced_ae/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "攜帶式元件工作台"
+  }
+}

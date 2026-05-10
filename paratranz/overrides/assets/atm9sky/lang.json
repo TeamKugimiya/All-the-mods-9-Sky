@@ -1,0 +1,26 @@
+{
+  "item.atm9sky.and_my_axe": {
+    "original": "And My Axe!",
+    "context": "source/overrides/assets/atm9sky/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "我的斧頭！"
+  },
+  "item.atm9sky.bills_hoe": {
+    "original": "Bill's Hoe",
+    "context": "source/overrides/assets/atm9sky/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "比爾的鋤頭"
+  },
+  "item.atm9sky.olys_sword_of_the_skies": {
+    "original": "Oly's Sword of the skies",
+    "context": "source/overrides/assets/atm9sky/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "奧利的天空之劍"
+  }
+}

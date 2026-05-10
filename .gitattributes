@@ -1,0 +1,7 @@
+# Upstream and game data files intentionally preserve pack formatting.
+source/** -whitespace
+translation/**/*.snbt -whitespace
+translation/**/*.json -whitespace
+translation/**/*.json5 -whitespace
+translation/**/*.toml -whitespace
+paratranz/** -whitespace

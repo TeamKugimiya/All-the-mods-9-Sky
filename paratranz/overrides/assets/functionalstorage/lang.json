@@ -1,0 +1,106 @@
+{
+  "configurationtool.configmode.swapped": {
+    "original": "Swapped mode to ",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將模式設為："
+  },
+  "gui.functionalstorage.empty": {
+    "original": "Empty",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "空"
+  },
+  "linkingtool.controller.configured": {
+    "original": "Controller configured to the tool",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "控制器現在可由工具設定連結"
+  },
+  "linkingtool.drawer.clear": {
+    "original": "Cleared drawer frequency",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已清除抽屜頻率"
+  },
+  "linkingtool.ender.changed": {
+    "original": "Changed drawer frequency",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已變更抽屜頻率"
+  },
+  "linkingtool.ender.stored": {
+    "original": "Stored frequency in the tool",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將頻率儲存在工具上"
+  },
+  "linkingtool.ender.warning": {
+    "original": "Cannot change frequency, there are items in the drawer. Sneak + Right Click again to ignore this safety",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "無法變更頻率，還有物品在抽屜裡。再次潛行 + 點擊右鍵來忽略此警告。"
+  },
+  "linkingtool.linkingaction.swapped": {
+    "original": "Swapped action to %s",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將連結指令設為：%s"
+  },
+  "linkingtool.linkingmode.swapped": {
+    "original": "Swapped mode to %s",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將連結模式設為：%s"
+  },
+  "linkingtool.multiple_drawer.linked": {
+    "original": "Linked drawers to the controller",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將抽屜連接至控制器"
+  },
+  "linkingtool.multiple_drawer.removed": {
+    "original": "Removed drawers from the controller",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將抽屜解除連結"
+  },
+  "linkingtool.single_drawer.linked": {
+    "original": "Linked drawer to the controller",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將抽屜連接至控制器"
+  },
+  "linkingtool.single_drawer.removed": {
+    "original": "Removed drawer from the controller",
+    "context": "source/overrides/assets/functionalstorage/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "已將抽屜解除連結"
+  }
+}

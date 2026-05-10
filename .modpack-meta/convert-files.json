@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project_slug": "atm9sky",
+  "sources": {
+    "kubejs-assets": {
+      "converter_type": "json-lang",
+      "paratranz_files": [
+        "kubejs/assets/kubejs/lang.json"
+      ],
+      "translation_files": [
+        "kubejs/assets/kubejs/lang/zh_tw.json"
+      ]
+    },
+    "overrides": {
+      "converter_type": "json-lang",
+      "paratranz_files": [
+        "overrides/assets/advanced_ae/lang.json",
+        "overrides/assets/atm9sky/lang.json",
+        "overrides/assets/exdeorum/lang.json",
+        "overrides/assets/functionalstorage/lang.json"
+      ],
+      "translation_files": [
+        "overrides/assets/advanced_ae/lang/zh_tw.json",
+        "overrides/assets/atm9sky/lang/zh_tw.json",
+        "overrides/assets/exdeorum/lang/zh_tw.json",
+        "overrides/assets/functionalstorage/lang/zh_tw.json"
+      ]
+    }
+  }
+}

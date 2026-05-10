@@ -1,0 +1,34 @@
+{
+  "jade.barrel.burning": {
+    "original": "Burning! ",
+    "context": "source/overrides/assets/exdeorum/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "正在燃燒！"
+  },
+  "jade.barrel.volume": {
+    "original": "Volume: ",
+    "context": "source/overrides/assets/exdeorum/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "數量："
+  },
+  "jade.crucible.rate": {
+    "original": "Rate: ",
+    "context": "source/overrides/assets/exdeorum/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "速率："
+  },
+  "jade.exdeorum.progress": {
+    "original": "Progress: ",
+    "context": "source/overrides/assets/exdeorum/lang/en_us.json",
+    "meta": {
+      "converter": "json-lang"
+    },
+    "translation": "進度："
+  }
+}

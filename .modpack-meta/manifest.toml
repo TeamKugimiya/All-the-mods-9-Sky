@@ -1,0 +1,11 @@
+schema_version = 1
+
+[upstream_state]
+platform = "curseforge"
+project_id = "967745"
+version = "atm9sky-1.1.9"
+artifact_id = "7976938"
+artifact_kind = "curseforge_file"
+primary_file_name = "All the Mods 9 - To the Sky - atm9sky-1.1.9.zip"
+fetched_at = "2026-05-10T15:01:22Z"
+source_archive_sha256 = "122b5835461548907b22c1c80830ba2e56cc6fde6706ed6624148119e7d73741"
